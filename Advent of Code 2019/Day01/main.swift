@@ -18,7 +18,7 @@ for mass in masses {
     sumOfFuel += mass / 3 - 2
 }
 
-print("The sum of fuel required is \(sumOfFuel)")
+print("Puzzle 1: The sum of fuel required is \(sumOfFuel)")
 
 
 // --------------------
@@ -36,4 +36,4 @@ for var mass in masses {
     }
 }
 
-print("The sum of fuel required is \(sumOfFuel)")
+print("Puzzle 2: The sum of fuel required is \(sumOfFuel)")

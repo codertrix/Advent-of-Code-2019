@@ -42,7 +42,7 @@ func run(program: [Int], noun: Int, verb: Int) -> Int {
 // --------------------
 
 var result = run(program: input, noun: 12, verb: 2)
-print("The value at position 0 is \(result)")
+print("Puzzle 1: The value at position 0 is \(result)")
 
 
 // --------------------
@@ -62,5 +62,5 @@ func nounVerbFor(result: Int) -> Int {
 
 result = nounVerbFor(result: 19690720)
 if result >= 0 {
-    print("The answer is \(result)")
+    print("Puzzle2: The answer is \(result)")
 }
