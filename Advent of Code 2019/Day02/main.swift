@@ -13,7 +13,7 @@ func run(program: [Int], noun: Int, verb: Int) -> Int {
     memory[2] = verb
 
     var pc = 0
-    var opcode = input[pc]
+    var opcode = memory[pc]
 
     while opcode != 99 {
         let idx1 = memory[pc + 1]
@@ -62,5 +62,5 @@ func nounVerbFor(result: Int) -> Int {
 
 result = nounVerbFor(result: 19690720)
 if result >= 0 {
-    print("Puzzle2: The answer is \(result)")
+    print("Puzzle 2: The answer is \(result)")
 }
